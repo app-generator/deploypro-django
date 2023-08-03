@@ -25,8 +25,13 @@ SECRET_KEY = "django-insecure-b+$5wugqo%4&wt1+^jy+6x+#p3z*f__c__7(j9-4qp@24nl65n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+APP_DOMAIN = os.environ.get('APP_DOMAIN')
 
+# HOSTs List
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', APP_DOMAIN]
+
+# Add here your deployment HOSTS
+CSRF_TRUSTED_ORIGINS = ['http://localhost:8000', 'http://localhost:5085', 'http://127.0.0.1:8000', 'http://127.0.0.1:5085', f'http://{APP_DOMAIN}', f'https://{APP_DOMAIN}']
 
 # Application definition
 
