@@ -4,6 +4,12 @@ Minimal `Django Sample` provided by [DeployPRO](https://deploypro.dev/) service 
 
 <br />
 
+## Run in `Docker`
+
+@Todo - all steps here
+
+<br />
+
 ## Manual Build
 
 > Install modules via `VENV`  
@@ -14,7 +20,7 @@ $ pip install django
 
 <br />
 
-> Migarte DB
+> Migrate DB
 
 ```bash
 $ python manage.py makemigrations
