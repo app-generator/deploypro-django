@@ -6,7 +6,10 @@ Minimal `Django Sample` provided by [DeployPRO](https://deploypro.dev/) service 
 
 ## Run in `Docker`
 
-@Todo - all steps here
+```bash
+$ docker-compose up --build
+```
+At this point, the app runs at `localhost:5000`
 
 <br />
 

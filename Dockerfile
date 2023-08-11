@@ -4,7 +4,5 @@ COPY ./requirements.txt /app
 RUN pip install -r requirements.txt
 COPY . .
 
-# runs the production server
-#ENTRYPOINT ["python", "/app/manage.py"]
-#CMD ["runserver", "0.0.0.0:8000"]
+# Start Server
 CMD ["python", "manage.py", "runserver", "0.0.0.0:5000"]
