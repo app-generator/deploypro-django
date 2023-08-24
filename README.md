@@ -1,4 +1,4 @@
-# [DeployPRO](https://deploypro.dev/) `Django Sample` 
+# [DeployPRO Django](https://www.docs.deploypro.dev/samples/django) `Free Sample` 
 
 Minimal `Django Sample` provided by [DeployPRO](https://deploypro.dev/) service for testing.
 
@@ -43,4 +43,4 @@ At this point, the app runs at `http://127.0.0.1:8000/`.
 <br />
 
 ---
-Django Sample - Open-source sample provided by [DeployPRO](https://deploypro.dev/)
+[Django Starter](https://www.docs.deploypro.dev/samples/django) - Open-source sample provided by [DeployPRO](https://deploypro.dev/)
